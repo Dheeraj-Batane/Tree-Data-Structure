@@ -29,7 +29,8 @@ class Demo5
 		return root;
 	}
 	public static Node kthSmallest(Node root, int k) {
-        Stack<Node> stk = new Stack<>();
+        
+		Stack<Node> stk = new Stack<>();
         while (root != null || !stk.isEmpty()) 
 		{
             if (root != null) 
